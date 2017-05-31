@@ -10,11 +10,16 @@
 
 <%= render 'home/header' %>
   <div class='container'>
+    
+   <p class="notice"><%= notice %></p>
+   <p class="alert"><%= alert %></p>
+       
     <div class='jumbotron'>
       <%= yield %>
-      
-      
     </div>
+    
   </div>
+  
+  
 </body>
 </html>
